@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75" started-at="2020-05-21T18:50:53 EDT" finished-at="2020-05-21T18:50:53 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="75" started-at="2020-05-21T18:50:53 EDT" finished-at="2020-05-21T18:50:53 EDT">
+      <class name="demo_pkg.demotest">
+        <test-method status="PASS" signature="div()[pri:0, instance:demo_pkg.demotest@578486a3]" name="div" duration-ms="13" started-at="2020-05-21T18:50:53 EDT" finished-at="2020-05-21T18:50:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:demo_pkg.demotest@578486a3]" name="sub" duration-ms="0" started-at="2020-05-21T18:50:53 EDT" finished-at="2020-05-21T18:50:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:demo_pkg.demotest@578486a3]" name="sum" duration-ms="0" started-at="2020-05-21T18:50:53 EDT" finished-at="2020-05-21T18:50:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="multi()[pri:0, instance:demo_pkg.demotest@578486a3]" name="multi" duration-ms="0" started-at="2020-05-21T18:50:53 EDT" finished-at="2020-05-21T18:50:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi -->
+      </class> <!-- demo_pkg.demotest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
