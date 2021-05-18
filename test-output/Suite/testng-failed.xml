@@ -5,7 +5,8 @@
     <classes>
       <class name="AzureTest.AzureRun.testRunAzure">
         <methods>
-          <include name="verifyAzure"/>
+          <include name="teardown"/>
+          <include name="producttest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- AzureTest.AzureRun.testRunAzure -->

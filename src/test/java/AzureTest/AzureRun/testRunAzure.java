@@ -22,19 +22,22 @@ public class testRunAzure {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://neuprodprv.www.office.com/");
 		//driver.get("http://google.com");
-			}
+	}
+					
 @Test
 public void verifyAzure() throws InterruptedException {
-	/*driver.findElement(By.xpath("//a[@id=\"hero-banner-sign-in-to-office-365-link\"]")).click();
-	//driver.findElement(By.xpath("//div[contains(text(),'Amudapriya Sivaraj')]")).click();
-	//driver.findElement((By.xpath("//*[@id='i0116']"))).sendKeys("amudapriya.sivaraj@lntinfotech.com");
-	//Thread.sleep(1000);
-	driver.findElement(By.id("idSIButton9")).click();
-	driver.findElement(By.id("passwordInput")).sendKeys("Apmay2021!");*/
 	String title=driver.getTitle();
 	System.out.println(title);
 	Assert.assertEquals(title, "Office 365 Login | Microsoft Office", "Title is not matched");
 	
+}
+@Test
+public void producttest() {
+	//driver.findElement(By.xpath("//*[@id='overflow-menu']/div/button")).click();
+	driver.findElement(By.xpath("//*[@id='c-shellmenu_0']")).click();	
+	driver.findElement(By.xpath("//*[@id='shellmenu_2']")).click();
+	String title1=driver.getTitle();
+	System.out.println(title1);
 }
 @AfterMethod
 public void teardown() {
